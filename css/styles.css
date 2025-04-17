@@ -66,6 +66,9 @@
         body {
           height: 2150px;
         }
+        table {
+          font-size: 75%;
+        }
         #desktop-footer {
           display: none;
         }
