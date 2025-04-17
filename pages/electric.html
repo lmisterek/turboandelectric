@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Turbo and Electric Sales and Service</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="stylesheet" href="styles2.css">
+    <!-- <link rel="manifest" href="images/site.webmanifest"> -->
+    <style>
+      .card-img-top {
+        width: 60%;
+        height: 10vw;
+        object-fit: contain;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+      }
+    </style>
+  </head>
+
+    <body>
+    <!-- Navbar -->
+        <nav class="navbar navbar-fixed-top navbar-expand-lg fixed-top" data-bs-theme="light" style="background-color: white;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../images/logo.jpg" alt="Turbo and Electric Logo" width=200>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="turbos.html">Turbos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="electric.html">Electrical</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Turbochargers
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="borgWarner.html">Borg Warner</a></li>
+                <li><a class="dropdown-item" href="garrett.html">Garrett</a></li>
+                <li><a class="dropdown-item" href="holset.html">Holset</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <br>
+    <div class="container">
+      <h2 style="text-align: center;"> Electrical</h2>
+      <br>
+      
+      <div class="row">
+        <div class="col p-3">     
+          <div class="card" style="width: 25rem;">
+            <img src="data:image/png;base64,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" class=" center card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col p-3">     
+          <div class="card" style="width: 25rem;">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOkAAADZCAMAAADyk+d8AAAAwFBMVEX///8AAACqHy5ra2t7e3umABmkAA3ft7rSmp6pGCm2SlS9Z22oECT05efu7u6nBh/5+fnEeoDm5uavr6/Dw8Pb29vq6urJyckwMDC1tbUfHx/V1dVQUFDe3t6np6eiAAApKSlcXFySkpJCQkKdnZ2Dg4N1dXWxP0nmzM0NDQ2Hh4dYWFiZmZmkAAk5OTlubm7u2NoZGRnkwsW8XWUkJCRHR0fCbnWwNUHQk5jLh4ytKjjy4eLYp6vFeH67WGG1RlCLXC6wAAARWUlEQVR4nM1d/UPaPBAuaJmVAp2i6Jgi6hzqcEx9/Xb7//+rl7ZJv3KX3LVJ9flpQ5rmIcnlcnly8TxL2Dm9Odu1VZjAusjzoeUym2L8XyfGsdVCN5My5xOrhTZCdH7ZEYgsFrsjCz2x3VdqYvijk+PKYsEbhXJPbf6E9TC86JRgb1gdlQu++liuVZ6dzoW1sr9Xi/7Ado2uqpVZY8dS4VOg7HNLZXNxDNRlbSotlX4DFX55aKl0Dqb3INFOx86kcIiUfnZkpXg6og2kJp3ONyvlo8V3ftgonwzsF7dWlbnuBe25EkPFLJYxbvwG2ARk+G2BBAXaBk3QdCxNjG9oo1mjubEanc5eo1eMCW/YtEQHBzTNAWji6kOztIoTWxM3gl80op3OwWE9j2Z4fGkuPIVLvz8ymKIy7jfYmP/hvMCdYdoxv7xdHLjyhL99NDMFtlzPCvY+mhcAN0yPzC9uHW6YevOP5qXAlQ88/GhiChwRNbqjrcPhavXgo7mV8N0d0U9mlJwGvX+Y398a3EaVNLGAtmEltqHB5zFKzdf7BpCXGo5x5prop2lU5036WUbqpXOi5Y2hj8NpC0zNATMU15unx4eH4xiHh8dXF9/rrwOnLTCtsx4XZuxaLW04Od6s43m1QNTzmHXaON7L1gbI2iOa/mLFbT4h0/tT0ctkBFfjk084/tefNoiSje/9r0KgUgYVtUHvKS0AGsM1yxjEIMtFxWbMxeeGINdkjhdZRBu7xueEevw5VmsidiH/M5U/PKUwde84eN6JsRYHYDX2xV8JERGCHwaYcdswTqcwT49klTLsGt1r9xOqoQK6/XmSVZIwteuNLUIYDIPol/bhufg1SG+KDLOOY8mDPjw4N8U7xLYLMQC0c6Z9W2MyWsx1rzbbQ2mVqFK0Xd3rbOrZFOh2TzcoU5zcBKZOElqhgcuImcYXJw4bOc7J+7way+Ro/ykG3pnu96llXKcP0B3XI3zCcad2QF+5wShEVJwRlkZ78AGbARGo/12MvEaLrYe7/te3BVaKXN8yogboix0JANAleMG8LPq+P0rQC58H6w8Gb6tqOVyr5GkcMzeO/jXytlySs9peht1w+dLvh37QHS3fV97X2ZZSkGwi8tjGjb6TbUVMDpXX92kWdLv+3Wv879tu2O2GvV44UpnKgceJwmM7Qi60OnB06zKf1Pp+d030qfTfbhdiKq0SZ5rYB1/vYr8NntcKRO9iZuFD/sS7jzKVLaR3k8tAqFpfqCIxlZzoc8JrWTQRdyHGNDMxnBkRpmp9I2oTfE0+Rm9nMdHwufRQN8CYZtuTHI8OHquWNxfhl+QLzSgdlL3ylLJYoky99ChR54RTC9gC23V//4NeUeh6X0cJ06DyWD9EmcrhwHJewXnV3nEOD9GhFvSeg2VCNOxXnlstUaZZN2H1PjAQYFOaDznZRX3iQ4jMKNsByrSWVQLdF4tbqZDWtRjHEU3a9W+rT37xcaa1rJIHqUWtBVrAkEqxelvpKK0apPjRnoapJ6InrCUJ5H1b20yFdkxLP+N2kDJdqg73i69hKq0SZ9EHujCWdlMh216qW9RLiXZH6sMPgIefQ+58sMTs0FC1M9NA565KX1gJpsELu2wZxeDEqSF3jdUrMEBzWNlcfvEF05/80qXvxWkUqEY2QvrmX/BJGKTgX43iRY9hheSBcIuFQAsU2agYnvdQMP1bo3zZFznHByBfv3GgBSq0aj/6kuldnTdMkVJ1gFylpoGWuVqksk66C5owzaYNzlADmDYM6UMzjLL2bcjU+81vFcgoMcJSAIBtYXXsN+u9Xi2rBMR6Gm0eQ/6I6pA/NLFIMaS7yVh/QaurJiF9oDjgh280yySQg4RhQIEtogaBFmivFvjhMs/hUf3b4PlJ/VCF7Dz045zQSK19QhIM2gN1kd6gEnJY420G0AcgVxF0qwQt3+rONPDOD1CaaFNoLfM3JLqIojfSV9WQDal5/hY52gsM1DthknrKtlPUozrDQ25lwbhsvUALdhZUrYscqKO36l/efLLbL60SOYCgZELp1Azp41oypS4iBtoN36t/+RfQFzjyhdR2AWOiNUL6OiGkYpWeR7DxXS05SzmuVQJ3ishvy/AbKkZ26GpdZNRhVvnD2nviLFpPeF0QPLTODrTA5mgo6qLIHN96UHBw3aQspgbBcxXw1jUzwwK8L3CG12U7BELbjwEzEMGRFnqYlIa1pYpIY47xukQvyYJmNih8djdKQi4DLcrFsKSFmLSPbpXGYG4i8WthdRm8hBXX968wUz0NZtXlzzwt/ZJklTBR9TW21N2fTPd29ocxdibHpnxAWF2i7WSr+FF4D7cx81Ev7r+BWL8mvMMU8r/KQk8InmlWCa3qn83dyf4wiqLhcH9vbyKaBbSyEITLIIy7Kr5+moVxEz4+b209P645hv7b69+gu729/Zgx7Sd46Hd7AbzQY0kLyaeUEruiVSGWcGiqy+BhOQrWzTYahWuey7t1s0eJh/82kkyz796+jOAlrbQElNFGr3u8BJuTvy3DFxoLOdj62ev5ayyDh7Qbv8UeonQXC0xTHQS0pGVIC+lnnONmIZ9Ayvd5tHWJVovF7aJsU0Gm8fYyOAfN09Ip0kIy0zn3ywJcmSPMNPaKwQ0O4YoRAkPko1MHnCQNRUkNT3yNMV34lQ8E6NJCzlEiejaVoolgyhwRpl4P2p7zGNJC+sHJISmVVorSqOTJHDGm2wHMlCwtpLfTHsNQl9/BEl8rTCPfj9ey/XCGPEGUFtLH3oR0eCtB1fxc0+qCMB2NvsZMfYyptAQmEQ+Z6S49F4XyTvz4LIGpH8ZM376+Yw4u0RLoD5oUcMz2Bdl1AZkOeglTHWgiHrI/eOXNqV9VFVJ0q6QwvfWNTDOrpN0uJ3fJC1gnBwHYSSCLrxWmfwMzU1m1e913yGbmN90ZhFruO6EuENMtv0tgGhEEz+Sp4xqN6iqAxgulLmWma5d48SWWcxOYUqSFZNfhjJ5HBYxEEcXXOVPfXy914nU4hSnBKpEdnxv6hASHdmgWMme6XtONkjU4ialZWmhOCytw0pQpTeaYMx0MFluPPpmpUfBMdgf/NGZKEl9XLNLWkszUJC1skylF5li1vW89KtOMCmKV2mRKsZDKfHpHmU9T6KWFZIt00tD2JpBWCRcU1fKRJLTSQobtJc+nGmGU0SopTIdmvzeHTvDMmE8b+UiUuoBMo1HKNPr5Dz2+mUEnLSQnG7umL3t0ChqTzBFbn3qDWU/R7qvQSAsZfu+c+lXtaQ+D+Fpl+vKSHJda9dRTCgBwq8RYy5DXp/pNTb2FxOJIa8tEYpppGhRLwFifkn8UgwAcrYuW6dOIxhSVFmLbggrO6R3dpIrWyRxRpv8CIlNpCarSQmrt12ambmyQXBcd08EMOE0EA5YW0mODY0a813QoQGOVMKbPIZkpLC3kxHvp3zWKSnHxdcY0LH38OoNOiGGARDycGD69/c1KS1R8nTH1S0RTFchIYval9NAs+1z0JkBayErxRv4u4fTDjVqXBLcA0+HTMlUF5NqAZWkvcib/IFVOgLSQHO878Rj7p4RoPSRzfL3rP8iDb93g4SHd///7uJT650CKHir7xrPAH8VqAl+2aRZgyK0Ste5J/H1O/jbhnBJgIVezWAwgIXtkKD9ae4MDqQ8u5EhIsTUKfg6ifDDIKVFaJbqRiffE6Ql5Kftq1bqsmf7c1uHnIpe3r/tv5VznsiIvrVglet0Tc0reV2bJSVjy6WykVvfIZ1UhrZDzCUswp1Zd7KhMJ9O9VI40PBqf40/Tzo6JcW/MoFhEPxuqo7JwVmFalvPh1H4fT45iQvv7e9PJBBt3h1jyRNKBQqbMscK0uyzNrzPlSHJROIPlnfmPfp4EuQSJdsiDKXOMUWDa9Yv9XmValPMhukHWsXE4YEw8ZcQVX8dMX7JZNSyKsQCm3lwUHyGJO5npdWA3i2hm2FapHz5+yaaaXmFoQkylnO87nIiFfeYWXOJS+wVTfB333uyAxnqovmZ/AJlKhqA6nX84HtThUw2qtErUk5Ix0yibVAty/iWYJEG3/iK+sQjQKlFPPjKtUszUu11mU02WkgdMmaW7Nq5WEgso5k3uG7IuNPOQMPXes1adydAowtSbI0TrJSYB+wj5aVEXWvqMlKmXGeAgEMYMY4oF5Gte6Agtiei9gyO+FkxXs2yqEUcXUKbwuYq6CYQg9Sz93C9HfC2YihRhyVSTrspRpnCPq30qHkrpRZ+uGOJryTQ5dyKoJqtynCk04ddP9AXNNIwzcnRpYcb0NbO/qcYZZwpcCN3kOgBo/cfwQciC54xprN8prspRplCTNkrIB7ghnOWYeNzoL+dMxWGqZKpZaZgCFWuWZBHy9BlH7KnSwgLTPNQSdHGmUDy+YeJMIBkRJ5kLUVpYYOrlrv7oAWUKEG2aDBWatzjJXKRV0ruRRaZFV3+BpLZzkXeFkktHCxGl0lulEtOosCx/AZk6yaUDdhSWK0IRX5eYFlx9JAUlEOM74VQJATT4Oatd2f910sIy04KrDzI1Z+GqCSDIz0p7NzZXpsLUy3cwAKaQP2MnYTwUgWP1X7P4uso0d/UBpu5y04GBFpY/YhRfV5nmrr7KFBpNtm5vM+aQNEEKnlGphMI0c/UVpuByjVEXPaDpi5VMziQtVJm+9hCmUJjM4gUs0O/IyuZiEDyrTKWrX2U6b/qjEytaAmuu1ksLAaYi2WiFKRi1t3pREqi5Y81hWmnhY6CmVhr2VKbgL87JVGgGvCXLWT3oBM/DZbf3qnyauPolpm3k2QZT9PBegomvX19X/4Ju8LJ4rWSxSFz9IlM4SsbJqU8BklqH4+sjgud/Mz8ekYE/e648EJWZwtsw9q98hVV33zhUYfH13dJPoTCNXf2cKSIncnAZHxxLZlEVVqk8K6wWEupQfZ/NpMYDucyBtfVOBLLtc8kYq/y8rquVGLzY5TY2M8RnwJQfjJfVyjYdA9vnr5mMzgD0ziDGvFon27TX+p1BuOiZ0UQXdaqIXnFYO2mkAXgSN4abUiOvK3Ytk/nca23gkq4Dsl3SCZ5BfMh9bbpbXskrJ2ZeV41gzuVtr43vVSzWnbKrG6E9t9M0CbMBc82Lye4KPdu0VpLt9K5MzFMRMN5/KoAJnqsv02s3G5PRwyAHpy0saHldDdfnOrppMIf+9dp7inMQ8rqazhI4uz2SXIPOCWW4SquEeZJj413e7u+ehrbdK7gntKtWWnhofoeDu/cUUI6HXZ4b7SoqeI7OKcec27gjnqjy/23oXojgeQqHcRQ4cu1L0KUwLuHPqTaiBkgLd37B11QCcM0yAbUyMdkrTctWBM/TU/PozAv+bExjzI8xt09Ypcu1F79LPjEr0AZRdEGuwdmP3SngPwlfidxlW2ZKPx5YxcnG5unu4Xg8mU7G48Pd0x86992AFqZT+slsp7C1Y6oB2fS6hfULXlXQj5K5hcN4gwA5T4tjOHcHP0uTOm/UTzJKYzhetsEXM38MnC7F6Wd424BLL9+4Pm4VVi7IhEHOXNISnBklfWDwA+BsRTP/aGYKHPmE9Gwe7cGNUaqzXHMNR+a3zjrSLezIelV8ukY9cTajRuQkFzHONi42ebjYICeBieFwPjXuleQ4qKlEjXbJqR4db8zodlALaCJAoP2a35zoc4qI5oRqNIvyUBKO1T1Ty4I5x1vTn9tMtY3NijWGhkxTzathcLDJQoPm0DZr06N0MbTx0ZYaNEVkuuusITSepxsBnQYTzGOys5TC4lU3NfMYOKiMLQcNXvRbPC/CQQQJCW2JhKDTzLaF6AwMlX1de6NIMfBX7VlcCDuV/L/2ajP9VDxjDIt92GYQoDjTnH48zxhRnsTHZrHZIvGbKxlvHRymhwnsVintLNetOgoEHF3dH9TPewLj/ODmlzXB5//LQjmQVcVXWwAAAABJRU5ErkJggg==" class="center card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col p-3">     
+          <div class="card" style="width: 25rem;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Leece-Neville_logo.svg/193px-Leece-Neville_logo.svg.png?20180916005101" class="center card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col p-3">     
+          <div class="card" style="width: 25rem;">
+            <img src="https://img.truckpartsandservice.com/files/base/randallreilly/all/image/2010/09/tps.association-og-diesel-specialists-logo.png?auto=format%2Ccompress&fit=max&q=70&w=400" class=" center card-img-top" alt="Association of Diesel Specialists">
+          </div>
+        </div>
+        <div class="col p-3">     
+          <div class="card" style="width: 25rem;">
+            <img src="https://images.seeklogo.com/logo-png/34/2/prestolite-electric-logo-png_seeklogo-345247.png" class="center card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col p-3">     
+          <div class="card" style="width: 25rem;">
+            <img src="https://1000logos.net/wp-content/uploads/2020/08/DENSO-Logo.png" class="center card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col p-3">     
+          <div class="card" style="width: 25rem;">
+            <img src="https://pfingsten.com/wp-content/uploads/2024/04/arrowhead-logo-.png" alt="...">
+          </div>
+        </div>
+    </div>
+
+    <nav id="desktop-footer" class="navbar fixed-bottom bg-body-tertiary">
+      <div class="container-fluid">
+      <div class="container">
+       <div class="row">
+        <div class="col-3">
+          <h5>Address</h5>
+          <p>  Turbo and Electric
+          <br> 2222 North 23rd Drive
+          <br>
+          Phoenix, AZ 85009</p>
+        </div>
+        <div class="col-3 p-1">
+          <h5>Phone</h5>
+          <ul>
+            <li>602-253-6817</li>
+            <li>1-800-738-8726</li>
+          </ul>
+        </div>
+        <div class="col-3 p-2">
+          <h5>Email</h5>
+          <p>contact@turboandelectricaz.com
+        </div>
+        <div class="col-3 p-2">
+          <h5><a href="https://www.ebay.com/usr/turboandelectric" target="_blank">Ebay Store</a></h5>
+        </div>
+      </div>
+      </div>
+    </nav>
+
+    <nav id="tablet-footer" class="navbar fixed-bottom bg-body-tertiary">
+      <div class="container-fluid">
+      <div class="container">
+       
+       <div class="row">
+        <div class="col-6">
+          <h5>Address</h5>
+          <p>  Turbo and Electric
+          <br> 2222 North 23rd Drive
+          <br>
+          Phoenix, AZ 85009</p>
+        </div>
+        <div class="col-6">
+          <h5>Phone</h5>
+          <ul>
+            <li>602-253-6817</li>
+            <li>1-800-738-8726</li>
+          </ul>
+        </div>
+       </div>
+
+       <div class="row"> 
+        <div class="col-6">
+          <h5>Email</h5>
+          <p>contact@turboandelectricaz.com
+        </div>
+        <div class="col-6">
+          <h5><a href="https://www.ebay.com/usr/turboandelectric" target="_blank">Ebay Store</a></h5>
+        </div>
+        </div>
+
+      </div>
+    </nav>
+
+    <nav id="mobile-footer" class="navbar fixed-bottom bg-body-tertiary">
+      <div class="container-fluid">
+      <div class="container">
+       
+        <div class="row">
+          <div class="col-6">
+            <h5>Address</h5>
+              <p>  Turbo and Electric
+              <br> 2222 North 23rd Drive
+              <br>
+                Phoenix, AZ 85009</p>
+          </div>
+          <div class="col-6">
+            <h5>Phone</h5>
+            <ul>
+              <li>602-253-6817</li>
+              <li>1-800-738-8726</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col-6">
+          <h5>Email</h5>
+          <p>contact@turboandelectricaz.com
+        </div>
+        <div class="col-6">
+          <h5><a href="https://www.ebay.com/usr/turboandelectric" target="_blank">Ebay Store</a></h5>
+        </div>
+
+        </div>
+      </div>
+      </div>
+    </nav>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+  </body>
+</html>
