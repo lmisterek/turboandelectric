@@ -3,7 +3,6 @@ document.body.onload = garrett();
 function garrett() {
 	
 	var tableBody = document.getElementById("borgWarnerTable");
-	console.log(data);
 	data.forEach(item=> {
 
 		if (item["Manufacturer"] == "BORG WARNER") {
