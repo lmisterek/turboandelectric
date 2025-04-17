@@ -68,6 +68,7 @@
         }
         table {
           font-size: 75%;
+          width: 80%;
         }
         #desktop-footer {
           display: none;
